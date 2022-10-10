@@ -1,0 +1,15 @@
+@mixin text-property($fs, $fc, $fw) {
+  text-transform: uppercase;
+  font-size: $fs;
+  color: $fc;
+  font-weight: $fw;
+}
+@mixin card-property($bg-color) {
+  background: $bg-color;
+  box-shadow: -0.87px 0.5px 30px $color-6;
+}
+@mixin tab-button-property {
+  width: 126px;
+  height: 40px;
+  border-radius: 25px;
+}
